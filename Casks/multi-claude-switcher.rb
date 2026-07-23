@@ -14,11 +14,9 @@ cask "multi-claude-switcher" do
 
   # The app updates itself from GitHub Releases, so let Homebrew defer to it.
   auto_updates true
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "Multi-Claude Switcher.app"
 
-  zap trash: [
-    "~/.multi-claude-switcher",
-  ]
+  zap trash: "~/.multi-claude-switcher"
 end
