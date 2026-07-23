@@ -1,10 +1,6 @@
 cask "multi-claude-switcher" do
   version "0.7.8"
-  # TODO: replace with the real sha256 of the v0.7.8 _macos.zip once that release
-  # exists. Until then this cask is a skeleton and `brew install` will fail the
-  # checksum step. Compute with:
-  #   shasum -a 256 Multi-Claude-Switcher_0.7.8_macos.zip
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "c1aafd980730dda24444b5a0318502105222e30e675ac3041e7fa6dcbb22da79"
 
   url "https://github.com/miou1107/multi-claude-switcher/releases/download/v#{version}/Multi-Claude-Switcher_#{version}_macos.zip",
       verified: "github.com/miou1107/multi-claude-switcher/"

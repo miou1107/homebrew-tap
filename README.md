@@ -37,13 +37,6 @@ brew uninstall --cask multi-claude-switcher
 
 Add `--zap` to also remove `~/.multi-claude-switcher` (settings, logs, backups).
 
-## Status
-
-> **Note:** the cask currently ships a placeholder `sha256` and is pinned to a
-> version that may not be released yet. It becomes installable once the matching
-> `multi-claude-switcher` release is published and the real checksum is filled
-> in.
-
 ## License
 
 MIT
