@@ -1,6 +1,6 @@
 cask "multi-claude-switcher" do
-  version "0.10.0"
-  sha256 "d06afcd3bb5ed93f9cdccd33226afb6feef8db1cf94126d20ec7e88aef05d44a"
+  version "0.10.1"
+  sha256 "e4e30e31aa4dea39b78af027e785729c1ca96a064f5c1f42215323d644821ed2"
 
   url "https://github.com/miou1107/multi-claude-switcher/releases/download/v#{version}/Multi-Claude-Switcher_#{version}_macos.zip",
       verified: "github.com/miou1107/multi-claude-switcher/"
